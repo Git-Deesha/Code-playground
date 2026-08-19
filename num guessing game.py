@@ -1,6 +1,6 @@
 import random
 top=int(input("enter top number"))
-num=random.randint(0,top-1)
+num=random.randint(0,top)
 guess=1
 while True:
     gnum=int(input("enter your guess"))
